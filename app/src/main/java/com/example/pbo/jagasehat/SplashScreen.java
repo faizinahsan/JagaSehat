@@ -18,6 +18,6 @@ public class SplashScreen extends AppCompatActivity {
                 startActivity(new Intent(SplashScreen.this,FormDemografi.class));
                 finish();
             }
-        },5000);
+        },3000);
     }
 }

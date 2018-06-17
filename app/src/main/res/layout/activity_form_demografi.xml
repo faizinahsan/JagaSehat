@@ -19,6 +19,7 @@
             android:layout_weight="0.3"
             android:text="Nama Lengkap: "/>
         <EditText
+            android:id="@+id/nama_lengkap"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.7"/>
@@ -34,6 +35,7 @@
             android:layout_weight="0.3"
             android:text="Usia: "/>
         <EditText
+            android:id="@+id/usia"
             android:inputType="number"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -84,6 +86,7 @@
             android:layout_weight="0.3"
             android:text="Pekerjaan: "/>
         <EditText
+            android:id="@+id/pekerjaan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.7"/>
@@ -99,6 +102,7 @@
             android:layout_weight="0.3"
             android:text="Email Lengkap: "/>
         <EditText
+            android:id="@+id/email"
             android:inputType="textEmailAddress"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
