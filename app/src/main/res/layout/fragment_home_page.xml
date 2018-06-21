@@ -15,6 +15,13 @@
             android:text="Ini Adalah HomePage"
             android:layout_marginTop="20dp"
             android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/bacaBuku"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Coba Baca Buku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
 </FrameLayout>
