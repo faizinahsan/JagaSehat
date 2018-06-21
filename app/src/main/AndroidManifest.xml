@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/SplashScreenStyle">
@@ -19,7 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FormDemografi"></activity>
+        <activity android:name=".FormDemografi" />
+        <activity android:name=".detail_kontak_petugas" />
+        <activity android:name=".detail_kontak_petugas2" />
+        <activity android:name=".detail_kontak_petugas3" />
+        <activity android:name=".DetailKontakPetugas4"></activity>
     </application>
 
 </manifest>

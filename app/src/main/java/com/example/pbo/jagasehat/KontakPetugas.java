@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 public class KontakPetugas extends Fragment {
 
 
-    public KontakPetugas() {
+   public KontakPetugas() {
         // Required empty public constructor
     }
 
