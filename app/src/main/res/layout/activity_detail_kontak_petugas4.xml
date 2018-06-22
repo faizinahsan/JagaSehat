@@ -8,7 +8,7 @@
     tools:context=".detail_kontak_petugas">
 
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -16,69 +16,85 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:textStyle="bold"
-            android:text="REYNALDI NOER RIZKI" />
+            android:layout_marginTop="10dp"
+            android:text="REYNALDI NOER RIZKI"
+            android:textStyle="bold" />
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="40dp"
             android:src="@drawable/kontak" />
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="160dp"
             android:text="Nama Lengkap          : Dr. Reynaldi Noer Rizky"
             android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
             android:text="Keahlian                      : Pediatric Oncologist"
             android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="230dp"
             android:text="TTL                               : Jakarta, 15 Agustus 1963"
             android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="260dp"
             android:text="Alamat                        : Jakarta land"
             android:textSize="15dp" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="280dp"
+            android:text="087651293840"
+            android:onClick="clickCall"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="20dp"
-            android:text="No Handphone          : 087642891627"
+            android:layout_marginTop="290dp"
+            android:text="No Handphone          : "
             android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="320dp"
             android:text="Email                            :  reybocoo@gmail.com"
             android:textSize="15dp" />
 
 
-    </LinearLayout>
+    </RelativeLayout>
 
 
 </LinearLayout>
