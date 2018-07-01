@@ -26,9 +26,5 @@ public class DetailKontakPetugas4 extends AppCompatActivity {
     }
 
 
-    @Override
-    public boolean onCreateOptionMenu(Menu menu){
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
+
 }

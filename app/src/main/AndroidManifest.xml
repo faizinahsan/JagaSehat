@@ -4,9 +4,12 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="18"/>
+        android:targetSdkVersion="18" />
 
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -25,19 +28,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
         <activity android:name=".FormDemografi" />
         <activity android:name=".detail_kontak_petugas" />
         <activity android:name=".detail_kontak_petugas2" />
         <activity android:name=".detail_kontak_petugas3" />
-        <activity android:name=".DetailKontakPetugas4"></activity>
-||||||| merged common ancestors
-        <activity android:name=".FormDemografi"></activity>
-=======
-        <activity android:name=".FormDemografi" />
-        <activity android:name=".CobaBaca" android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ViewPagerActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
->>>>>>> bff87ccad601d32523f2f718220780d87b1e3010
+        <activity android:name=".DetailKontakPetugas4" />
+        <activity
+            android:name=".CobaBaca"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewPagerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AkuDanCeritaku" />
+        <activity android:name=".HarapanDanCita" />
+        <activity android:name=".Kelebihan" />
+        <activity android:name=".Aku"></activity>
     </application>
 
 </manifest>
