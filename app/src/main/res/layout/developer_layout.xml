@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/developer_layout"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/ib_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@null" />
+
+    <ImageView
+        android:layout_margin="16dp"
+        android:scaleType="fitXY"
+        android:id="@+id/faizin"
+        android:src="@drawable/faizin"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:textColor="#ffff"
+        android:layout_marginTop="16dp"
+        android:id="@+id/namaFaizin"
+        android:layout_toRightOf="@+id/faizin"
+        android:textSize="20sp"
+        android:text="M Faizin Ahsan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/npmFaizin"
+        android:layout_toRightOf="@id/faizin"
+        android:layout_below="@+id/namaFaizin"
+        android:text="140810160032"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/afifah"
+        android:layout_below="@id/faizin"
+        android:layout_marginLeft="16dp"
+        android:scaleType="fitXY"
+        android:id="@+id/afifah"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+    <TextView
+        android:textColor="#ffff"
+        android:layout_marginTop="16dp"
+        android:id="@+id/namaAfifah"
+        android:layout_toRightOf="@+id/afifah"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/faizin"
+        android:text="Afifah Khoeriah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:textColor="#ffff"
+        android:id="@+id/npmAfifah"
+        android:layout_toRightOf="@id/afifah"
+        android:layout_below="@+id/namaAfifah"
+        android:text="140810160008"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:src="@drawable/intan"
+        android:layout_below="@id/afifah"
+        android:layout_marginLeft="16dp"
+        android:scaleType="fitXY"
+        android:id="@+id/intan"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+    <TextView
+        android:textColor="#ffff"
+        android:layout_marginTop="16dp"
+        android:id="@+id/namaIntan"
+        android:layout_toRightOf="@+id/intan"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/afifah"
+        android:text="Intan Pratiwi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:textColor="#ffff"
+        android:id="@+id/npmIntan"
+        android:layout_toRightOf="@id/afifah"
+        android:layout_below="@+id/namaIntan"
+        android:text="140810160022"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/erick"
+        android:layout_below="@id/intan"
+        android:layout_margin="16dp"
+        android:src="@drawable/erick"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_toRightOf="@id/erick"
+        android:textColor="#ffff"
+        android:layout_below="@id/intan"
+        android:layout_marginTop="16dp"
+        android:text="Pembina: Erick Paulus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
