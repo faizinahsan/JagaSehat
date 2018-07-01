@@ -5,6 +5,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by M FaizinAhsan on 6/9/2018.
  */
@@ -15,27 +18,27 @@ public class MainCategotyAdapter extends FragmentPagerAdapter {
         super(fm);
         mContext = context;
     }
+    private final List<Fragment> mFragmentList = new ArrayList<>();
+    private final List<String> mFragmentTitleList = new ArrayList<>();
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0){
-            return new HomePage();
-        }else{
-            return new KontakPetugas();
-        }
+        return mFragmentList.get(position);
     }
 
     @Override
     public int getCount() {
-        return 2;
+        return mFragmentList.size();
     }
+
+    public void addFrag(Fragment fragment, String title) {
+        mFragmentList.add(fragment);
+        mFragmentTitleList.add(title);
+    }
+
     @Override
     public CharSequence getPageTitle(int position) {
-
-        if (position == 0){
-            return "Cerita";
-        }else{
-            return "Kontak Petugas";
-        }
+        return mFragmentTitleList.get(position);
     }
+
 }
