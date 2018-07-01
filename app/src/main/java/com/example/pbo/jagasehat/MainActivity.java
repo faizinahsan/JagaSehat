@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_home_page);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_kontak_petugas);
     }
-
     @Override
     public void onBackPressed() {
         if (back_pressed + TIME_DELAY > System.currentTimeMillis()) {

@@ -5,106 +5,110 @@
     android:id="@+id/homepage"
     android:background="@color/backgroundColorApp"
     tools:context="com.example.pbo.jagasehat.HomePage">
-
-    <LinearLayout
-        android:orientation="vertical"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <TextView
-            android:id="@+id/textPengenalan"
-            android:textColor="@color/colorPrimaryDark"
-            android:textStyle="bold|italic"
-            android:fontFamily="serif"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Selamat datang di Aplikasi Jaga Sehat \n Sudah Baca Cerita nya?"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center_horizontal"/>
-        <Button
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="#ffff"
-            android:id="@+id/bacaBuku"
-            android:layout_gravity="center_horizontal"
-            android:text="Ayo Baca Cerita"
-            android:drawableLeft="@drawable/ic_action_name"
-            android:layout_width="300dp"
-            android:layout_height="70dp" />
-        <TextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/textPengenalanIsi"
-            android:textColor="@color/colorPrimaryDark"
-            android:textStyle="bold|italic"
-            android:fontFamily="serif"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Jika Sudah Membaca, \n Ayo Isi Ceritamu Sendiri"
-            android:layout_gravity="center_horizontal"/>
-        <Button
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="#ffff"
-            android:id="@+id/isiHarapan"
-            android:drawableLeft="@drawable/ic_pen"
-            android:text="Ayo Isi Harapanmu"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:drawableLeft="@drawable/ic_pen"
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="#ffff"
-            android:id="@+id/isiKelebihan"
-            android:text="Ayo Isi Kelebihanmu"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:drawableLeft="@drawable/ic_pen"
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="#ffff"
-            android:id="@+id/isiAku"
-            android:text="Ayo Isi Deskripsimu"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="#ffff"
-            android:drawableLeft="@drawable/ic_pen"
-            android:id="@+id/isiCerita"
-            android:text="Ayo Isi Ceritamu"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/textPengenalanLainnya"
-            android:textColor="@color/colorPrimaryDark"
-            android:textStyle="bold|italic"
-            android:fontFamily="serif"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Mungkin Anda Juga Tertarik Untuk :"
-            android:layout_gravity="center_horizontal"/>
-        <Button
-            android:drawableLeft="@drawable/ic_share"
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="#ffff"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/bagiSosmed"
-            android:text="Mebagikan aplikasi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:drawableLeft="@drawable/ic_developer"
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="#ffff"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/mengenalDeveloper"
-            android:text="Mengenal Developer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textPengenalan"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold|italic"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Selamat datang di Aplikasi Jaga Sehat \n Sudah Baca Cerita nya?"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"/>
+            <Button
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#ffff"
+                android:id="@+id/bacaBuku"
+                android:layout_gravity="center_horizontal"
+                android:text="Ayo Baca Cerita"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:layout_width="300dp"
+                android:layout_height="70dp" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/textPengenalanIsi"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold|italic"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Jika Sudah Membaca, \n Ayo Isi Ceritamu Sendiri"
+                android:layout_gravity="center_horizontal"/>
+            <Button
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#ffff"
+                android:id="@+id/isiHarapan"
+                android:drawableLeft="@drawable/ic_pen"
+                android:text="Ayo Isi Harapanmu"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:drawableLeft="@drawable/ic_pen"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#ffff"
+                android:id="@+id/isiKelebihan"
+                android:text="Ayo Isi Kelebihanmu"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:drawableLeft="@drawable/ic_pen"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#ffff"
+                android:id="@+id/isiAku"
+                android:text="Ayo Isi Deskripsimu"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#ffff"
+                android:drawableLeft="@drawable/ic_pen"
+                android:id="@+id/isiCerita"
+                android:text="Ayo Isi Ceritamu"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/textPengenalanLainnya"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold|italic"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mungkin Anda Juga Tertarik Untuk :"
+                android:layout_gravity="center_horizontal"/>
+            <Button
+                android:drawableLeft="@drawable/ic_share"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#ffff"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/bagiSosmed"
+                android:text="Mebagikan aplikasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:drawableLeft="@drawable/ic_developer"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="#ffff"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/mengenalDeveloper"
+                android:text="Mengenal Developer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
 
 </FrameLayout>

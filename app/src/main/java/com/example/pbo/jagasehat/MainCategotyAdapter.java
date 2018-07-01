@@ -31,6 +31,11 @@ public class MainCategotyAdapter extends FragmentPagerAdapter {
     }
     @Override
     public CharSequence getPageTitle(int position) {
-        return null;
+
+        if (position == 0){
+            return "Cerita";
+        }else{
+            return "Kontak Petugas";
+        }
     }
 }
