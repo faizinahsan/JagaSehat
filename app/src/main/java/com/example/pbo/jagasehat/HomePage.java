@@ -20,7 +20,7 @@ import static android.content.Context.LAYOUT_INFLATER_SERVICE;
 
 
 public class HomePage extends Fragment {
-    Button bacaBuku,isiCerita,isiHarapan,isiKelebihan,isiAku,bagiSosmed;
+    Button bacaBuku,isiCerita,isiHarapan,isiKelebihan,isiAku,bagiSosmed,mengenalAplikasi;
     private Context mContext;
     private Activity mActivity;
 
@@ -38,6 +38,7 @@ public class HomePage extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home_page, container, false);
+
         isiCerita = (Button) view.findViewById(R.id.isiCerita);
         isiCerita.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -160,6 +161,7 @@ public class HomePage extends Fragment {
                 mPopupWindow.showAtLocation(mFrameLayout, Gravity.CENTER,0,0);
             }
         });
+        mengenalAplikasi = (Button) view.findViewById(R.id.mengenalAplikasi);
 
         return view;
     }

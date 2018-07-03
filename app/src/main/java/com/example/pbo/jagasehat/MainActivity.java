@@ -1,6 +1,7 @@
 package com.example.pbo.jagasehat;
 
 import android.app.AlarmManager;
+import android.app.FragmentManager;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -9,14 +10,13 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.RadioButton;
 import android.widget.Toast;
 
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
+    static boolean active = false;
     //Pending intent instance
     private PendingIntent pendingIntent;
     //Alarm Request Code
@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
 //        MainCategotyAdapter adapter = new MainCategotyAdapter(getSupportFragmentManager(),this);
 
         setupViewPager(viewPager);
-
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
         setupTabIcon();
@@ -49,8 +48,9 @@ public class MainActivity extends AppCompatActivity {
 //                stopAlarmManager();
 //            }
 //        });
-
+//        showdialog();
     }
+
     //get time interval to trigger alarm manager
     private int getTimeInterval(String getInterval) {
         int interval = Integer.parseInt(getInterval);//convert string interval into integer
@@ -105,5 +105,17 @@ public class MainActivity extends AppCompatActivity {
         back_pressed = System.currentTimeMillis();
         triggerAlarmManager(getTimeInterval("10"));
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        active = true;
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        active = false;
     }
 }

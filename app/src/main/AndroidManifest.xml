@@ -44,6 +44,7 @@
         <activity android:name=".AkuDanCeritaku" />
         <activity android:name=".HarapanDanCita" />
         <activity android:name=".Kelebihan" />
+        <activity android:name=".CostumDialog" android:configChanges="orientation|screenSize"/>
         <activity android:name=".Aku"></activity>
         <!--  Declare  Alarm Broadcast receiver here  -->
         <receiver android:name=".AlarmReceiver" />
