@@ -26,6 +26,8 @@ tools:context="com.example.pbo.jagasehat.Kelebihan">
     android:layout_height="wrap_content" />
 <Button
     android:text="save"
+    android:backgroundTint="@color/colorPrimary"
+    android:textColor="#ffff"
     android:id="@+id/saveText"
     android:layout_centerHorizontal="true"
     android:layout_alignParentBottom="true"
@@ -35,6 +37,8 @@ tools:context="com.example.pbo.jagasehat.Kelebihan">
 
 <Button
     android:id="@+id/editText"
+    android:backgroundTint="@color/colorPrimary"
+    android:textColor="#ffff"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"

@@ -21,7 +21,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
             android:text="REYNALDI NOER RIZKI"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
 
         <ImageView
             android:layout_width="100dp"
@@ -40,7 +41,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="160dp"
             android:text="Nama Lengkap          : Dr. Reynaldi Noer Rizky"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimaryDark"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -48,7 +50,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="200dp"
             android:text="Keahlian                      : Pediatric Oncologist"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimaryDark"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -57,7 +60,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="230dp"
             android:text="TTL                               : Jakarta, 15 Agustus 1963"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimaryDark"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -66,7 +70,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="260dp"
             android:text="Alamat                        : Jakarta land"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimaryDark"/>
 
         <Button
             android:id="@+id/button"
@@ -74,6 +79,8 @@
             android:layout_height="40dp"
             android:layout_marginLeft="165dp"
             android:layout_marginTop="280dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffff"
             android:text="087651293840"
             android:onClick="clickCall"/>
 
@@ -83,7 +90,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="290dp"
             android:text="No Handphone          : "
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimaryDark"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -91,7 +99,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="320dp"
             android:text="Email                            :  reybocoo@gmail.com"
-            android:textSize="15dp" />
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimaryDark"/>
 
 
     </RelativeLayout>

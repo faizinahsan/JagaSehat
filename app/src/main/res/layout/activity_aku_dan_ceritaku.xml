@@ -26,6 +26,8 @@
     <Button
         android:text="save"
         android:id="@+id/saveText"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#ffff"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="30dp"
@@ -34,6 +36,8 @@
 
     <Button
         android:id="@+id/editText"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#ffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"

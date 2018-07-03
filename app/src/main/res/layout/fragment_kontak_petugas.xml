@@ -31,6 +31,7 @@
                 <TextView
                     android:textSize="19dp"
                     android:fontFamily="sans-serif"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="bold"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -38,6 +39,7 @@
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
                     android:text="Ahli Hermatologi" />
             </LinearLayout>
 
@@ -66,6 +68,7 @@
                 <TextView
                     android:textSize="19dp"
                     android:fontFamily="sans-serif"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="bold"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -73,6 +76,7 @@
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
                     android:text="Medical Oncologist" />
             </LinearLayout>
 
@@ -101,6 +105,7 @@
                 <TextView
                     android:textSize="19dp"
                     android:fontFamily="sans-serif"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="bold"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -108,6 +113,7 @@
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
                     android:text="Radiation Oncologist" />
             </LinearLayout>
 
@@ -136,6 +142,7 @@
                 <TextView
                     android:textSize="19dp"
                     android:fontFamily="sans-serif"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textStyle="bold"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -143,6 +150,7 @@
                 <TextView
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
                     android:text="Pediatric Oncologist" />
             </LinearLayout>
 
