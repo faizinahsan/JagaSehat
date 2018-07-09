@@ -5,11 +5,17 @@
         <item>Perempuan</item>
     </string-array>
     <string-array name="pendidikan_array">
-        <item>Tidak Sekolah</item>
-        <item>TK</item>
-        <item>Sekolah Dasar</item>
+        <item>SD</item>
         <item>SMP</item>
         <item>SMA</item>
-        <item>Sarjana</item>
+        <item>Perguruan Tinggi</item>
+    </string-array>
+    <string-array name="pekerjaan_array">
+        <item>PNS/TNI/Porli</item>
+        <item>Pegawai Swasta</item>
+        <item>Wiraswasta</item>
+        <item>Mahasiswa</item>
+        <item>Pelajar</item>
+        <item>Lainnya</item>
     </string-array>
 </resources>

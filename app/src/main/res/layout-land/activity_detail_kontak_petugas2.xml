@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -20,7 +20,7 @@
             android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:text="REYNALDI NOER RIZKI"
+            android:text="RAFIDGADAH DAMARTA"
             android:textStyle="bold"
             android:textColor="@color/colorPrimaryDark"/>
 
@@ -40,7 +40,7 @@
             android:layout_marginLeft="20dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="160dp"
-            android:text="Nama Lengkap          : Dr. Reynaldi Noer Rizky"
+            android:text="Nama Lengkap          : Dr. Rafidgadah Damarta"
             android:textSize="15dp"
             android:textColor="@color/colorPrimaryDark"/>
 
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="200dp"
-            android:text="Keahlian                      : Pediatric Oncologist"
+            android:text="Keahlian                      : Ahli Hermatologi"
             android:textSize="15dp"
             android:textColor="@color/colorPrimaryDark"/>
 
@@ -59,7 +59,7 @@
             android:layout_marginLeft="20dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="230dp"
-            android:text="TTL                               : Jakarta, 15 Agustus 1963"
+            android:text="TTL                               : Bandung, 22 Juli 1960"
             android:textSize="15dp"
             android:textColor="@color/colorPrimaryDark"/>
 
@@ -69,7 +69,7 @@
             android:layout_marginLeft="20dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="260dp"
-            android:text="Alamat                        : Jakarta land"
+            android:text="Alamat                        : Jatinewyork"
             android:textSize="15dp"
             android:textColor="@color/colorPrimaryDark"/>
 
@@ -81,7 +81,8 @@
             android:layout_marginTop="280dp"
             android:backgroundTint="@color/colorPrimary"
             android:textColor="#ffff"
-            android:text="087651293840" />
+            android:text="082098317494"
+            android:onClick="clickCall"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -97,7 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="320dp"
-            android:text="Email                            :  reybocoo@gmail.com"
+            android:text="Email                            :  rafidhermato@gmail.com"
             android:textSize="15dp"
             android:textColor="@color/colorPrimaryDark"/>
 
@@ -105,4 +106,4 @@
     </RelativeLayout>
 
 
-</LinearLayout>
+</ScrollView>

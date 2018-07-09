@@ -17,6 +17,7 @@ public class User {
     public String pendidikan;
     public String pekerjaan;
     public String email;
+    public String date;
 
 
     public User() {
@@ -25,7 +26,7 @@ public class User {
 
     public User(String key,String username,String usia,String jk,String pendidikan,String
             pekerjaan, String
-            email) {
+            email,String date) {
         this.key = key;
         this.nama = username;
         this.usia = usia;
@@ -33,6 +34,7 @@ public class User {
         this.pendidikan = pendidikan;
         this.pekerjaan = pekerjaan;
         this.email = email;
+        this.date  = date;
     }
 
     public String getKey() {
@@ -62,6 +64,10 @@ public class User {
     public String getEmail() {
         return email;
     }
+    public String getDate() {
+        return date;
+    }
+
 
     @Exclude
     public Map<String, Object> toMap() {

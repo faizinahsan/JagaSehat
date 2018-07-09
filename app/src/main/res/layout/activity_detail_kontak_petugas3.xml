@@ -81,8 +81,7 @@
             android:layout_marginTop="280dp"
             android:backgroundTint="@color/colorPrimary"
             android:textColor="#ffff"
-            android:text="087826340821"
-            android:onClick="clickCall"/>
+            android:text="087826340821"/>
 
         <TextView
             android:layout_width="wrap_content"
